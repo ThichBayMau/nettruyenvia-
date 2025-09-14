@@ -1,21 +1,21 @@
 {
   "metadata": {
     "name": "NetTruyenVia",
-    "author": "ngo duy",
+    "author": "Duy",
     "version": 1,
     "source": "https://nettruyenvia.com",
     "regexp": "^https?://(www\\.)?nettruyenvia\\.com(/.*)?$",
     "description": "Extension lấy thông tin, mục lục và chương từ NetTruyenVia.",
     "locale": "vi_VN",
-    "tag": "",
-    "type": "novel"
+    "language": "javascript",
+    "type": "comic"
   },
   "script": {
-    "home": "",
-    "genre": "",
+    "home": "home.js",
+    "genre": "genre.js",
     "detail": "detail.js",
-    "search": "",
-    "page": "",
+    "search": "search.js",
+    "page": "page.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
